@@ -18,7 +18,7 @@ $(document).ready(function() {
     lat = loc.split(",")[0]
     lon = loc.split(",")[1]
 
-    var weatherApiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + "&units=" + units + appid;
+    var weatherApiUrl = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + "&units=" + units + appid;
 
     console.log(weatherApiUrl);
 
