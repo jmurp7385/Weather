@@ -4,7 +4,7 @@ $(document).ready(function() {
   getLocation();
 
   function getLocation() {
-    $.get("http://ipinfo.io", function(location) {
+    $.get("https://ipinfo.io", function(location) {
       console.log(location);
       $('#location')
         .append(location.city + ", " + location.region)
