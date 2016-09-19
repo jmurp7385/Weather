@@ -1,0 +1,36 @@
+
+#title{
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+.info-box{
+  background-color: #fff;
+  position: fixed;
+  border-radius: 50px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  opacity: .55;
+}
+.background{
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+#icon,#temp, #units{
+  postition: relative;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+#temp{
+  font-size:25px;
+}
+
+#units{
+  color:black;
+  font-size:25px;
+}
