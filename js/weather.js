@@ -59,7 +59,7 @@ $(document).ready(function() {
             }
           }
           console.log(weather);
-        }); $('#icon').append("<img src='http://openweathermap.org/img/w/" + weather.weather[0].icon + ".png'>");
+        }); $('#icon').append("<img src='https://openweathermap.org/img/w/" + weather.weather[0].icon + ".png'>");
       var description = weather.weather[0].main; 
       if (description === "Rain") {        document.getElementById('background').style.backgroundImage = "url('https://static.pexels.com/photos/7467/pexels-photo-large.jpeg')";
       } else if (description === "Clouds") {
@@ -68,7 +68,7 @@ $(document).ready(function() {
       } else if (description === "Mist") {
         document.getElementById('background').style.backgroundImage = "url('https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy-large.jpg')";
       } else if (description === "Clear") {
-        document.getElementById('background').style.backgroundImage = "url('http://i1268.photobucket.com/albums/jj579/joey_murphy7385/clearSkies_zpsk2ngxijo.jpg')";
+        document.getElementById('background').style.backgroundImage = "url('https://i1268.photobucket.com/albums/jj579/joey_murphy7385/clearSkies_zpsk2ngxijo.jpg')";
       } else {
         document.getElementById('background').style.backgroundImage = "url('background-image', url('#')";
       }
